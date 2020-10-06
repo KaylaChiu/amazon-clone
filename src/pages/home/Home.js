@@ -16,7 +16,7 @@ function Home() {
       <div className="home__row">
         <Product
           id="123123123"
-          title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Pagerback"
+          title="Here is some change in dev branch: The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Pagerback"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
