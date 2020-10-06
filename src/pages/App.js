@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Login from './Login';
-import Header from './Header';
-import Home from './Home';
-import Checkout from './Checkout';
+import Login from "./login/Login";
+import Header from "./subCom/Header";
+import Home from "./home/Home";
+import Checkout from "./checkout/Checkout";
 
 function App() {
   return (
@@ -15,14 +15,14 @@ function App() {
         <Switch>
           <Route path="/checkout">
             <Header />
-            <Checkout/>
+            <Checkout />
           </Route>
           <Route path="/login">
-            <Login/>
+            <Login />
           </Route>
           <Route path="/">
             <Header />
-            <Home/>
+            <Home />
           </Route>
         </Switch>
       </div>
